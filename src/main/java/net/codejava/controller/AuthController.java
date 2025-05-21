@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import net.codejava.jwt.JwtTokenUtil;
 import net.codejava.user.User;
-import net.codejava.user.apik.AuthRequest;
-import net.codejava.user.apik.AuthResponse;
+import net.peter.Dto.AuthRequest;
+import net.peter.Dto.AuthResponse;
 
 @RestController
 public class AuthController {

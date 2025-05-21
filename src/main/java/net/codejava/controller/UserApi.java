@@ -1,4 +1,4 @@
-package net.codejava.user.apik;
+package net.codejava.controller;
 
 import java.net.URI;
 
@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import net.codejava.apik.UserService;
 import net.codejava.user.User;
+import net.peter.Dto.UserDTO;
 
 @RestController
 public class UserApi {

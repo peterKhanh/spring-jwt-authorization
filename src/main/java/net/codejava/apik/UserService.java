@@ -1,4 +1,4 @@
-package net.codejava.user.apik;
+package net.codejava.apik;
 
 import javax.transaction.Transactional;
 
@@ -7,7 +7,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import net.codejava.user.User;
-import net.codejava.user.UserRepository;
 
 @Service
 @Transactional

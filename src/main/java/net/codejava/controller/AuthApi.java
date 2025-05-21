@@ -1,4 +1,4 @@
-package net.codejava.user.apik;
+package net.codejava.controller;
 
 import javax.validation.Valid;
 
@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import net.codejava.jwt.JwtTokenUtil;
 import net.codejava.user.User;
+import net.peter.Dto.AuthRequest;
+import net.peter.Dto.AuthResponse;
 
 @RestController
 public class AuthApi {

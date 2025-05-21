@@ -1,4 +1,4 @@
-package net.codejava.user.apik;
+package net.peter.Dto;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;

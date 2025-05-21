@@ -1,4 +1,4 @@
-package net.codejava.user.apik;
+package net.peter.Dto;
 
 public class AuthResponse {
 	private String email;
