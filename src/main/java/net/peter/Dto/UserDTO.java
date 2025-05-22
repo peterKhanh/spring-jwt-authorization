@@ -1,31 +1,38 @@
 package net.peter.Dto;
 
+import java.util.Set;
+
 public class UserDTO {
-	private Integer id;
 	private String email;
-
-	public UserDTO() {
-	}
-
-	public UserDTO(Integer id, String email) {
-		this.id = id;
+	private String password;
+	private Set<String> role;
+	public UserDTO(String email, String password, Set<String> role) {
+		super();
 		this.email = email;
+		this.password = password;
+		this.role = role;
 	}
-
-	public Integer getId() {
-		return id;
+	public UserDTO() {
+		super();
 	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
-
 	public String getEmail() {
 		return email;
 	}
-
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public Set<String> getRole() {
+		return role;
+	}
+	public void setRole(Set<String> role) {
+		this.role = role;
+	}
+
 
 }
